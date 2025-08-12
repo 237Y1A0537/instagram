@@ -1,0 +1,17 @@
+    print("Hello, World!")
+    message = "This is a message"
+    print(message)
+    x = 10
+    y = 5
+    sum = x + y
+    print(sum)
+    age = 20
+    if age >= 18:
+        print("Eligible to vote")
+    else:
+        print("Not eligible to vote")
+    for i in range(3):
+        print(i)
+    def greet(name):
+        return "Hello, " + name
+    print(greet("World"))
